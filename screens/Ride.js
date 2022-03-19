@@ -29,6 +29,7 @@ export default class RideScreen extends Component {
       scanned: false,
       bikeType: "",
       userName: "",
+
       email: firebase.auth().currentUser.email
       
     };
